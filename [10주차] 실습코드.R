@@ -19,7 +19,6 @@ grp <- factor(grp)                          # 문자벡터를 팩터 타입으�
 grp <- factor(grp, levels=c("H","M","L"))   # 레벨의 순서를 H,L,M -> H,M,L
 
 myds <- data.frame(myds, grp)               # myds 에 grp 컬럼추가
-myds <- data.frame(myds, grp)               # myds 에 grp 컬럼추가
 
 ## (3) Add new column ----------------------
 str(myds)  
